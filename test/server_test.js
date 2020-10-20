@@ -5,7 +5,7 @@ var port = '8090';
 
 it('Index page content', function(done) {
   request(`http://${hostname}:${port}`, function(error, res, body) {
-    expect(body).to.equal('Giant Hello to the whole World!');
+    expect(body).to.equal('Big Hello to the whole World!');
     done();
   });
 });
