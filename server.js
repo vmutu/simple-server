@@ -6,7 +6,7 @@ var hostname = 'localhost';
 var port = '8090';
 
 app.get('/', function(req, res) {
-  res.send('Giant Hello to the whole World!');
+  res.send('Big Hello to the whole World!');
 })
 
 app.listen(port, function() {
